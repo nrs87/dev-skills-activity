@@ -1,0 +1,77 @@
+/*
+ * Dev Skills Widget - Rocket Media
+ * Derived From https://github.com/rocket-media/dev-skills-activity
+ */
+
+*{
+   font-family: Arial, sans-serif;
+   font-size: 15px;
+}
+
+/* Use Google fonts for header tags */
+h1, h2{
+   font-family: 'Oxygen', sans-serif;
+   font-weight: 400;
+}
+
+h1, h1 b{
+   font-size: 26px;
+}
+
+h1{
+   padding: 0;
+   maring: 0;
+   line-height: 1em; 
+}
+
+h2{
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 16px;
+   color: #cadeff;
+   margin: 20px 0px 20px 0px;
+}
+
+a:link, a:visited, a:hover, a:active{
+   color: #f8f65f;
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+img{
+   padding: 20px;
+}
+
+/* Main box */
+#widget .modal-content{
+   margin: 0 auto;
+   color: white;
+   background-color: #254375;
+   /* IE9 & earlier do not support the following, background color will be shown */
+   background: -webkit-linear-gradient(#254375, #355da0); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#254375, #355da0); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#254375, #355da0); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#254375, #355da0); /* Standard syntax (must be last) */
+}
+
+#widget .modal-lg{
+}
+
+/* Arrow icon for link */
+#more-arrow{
+   padding-left:20px;
+}
+
+/* Right justified rows */
+.right-row{
+   text-align:right;
+   padding: 10px 20px 10px 20px;
+}
+
+/* Make sure user knows link is clickable */
+.close-link{
+   cursor: pointer;
+}
